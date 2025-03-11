@@ -70,9 +70,9 @@ export default function PlayerDetails({
     return (
       <>
         <AgentList setSelectedElement={setSelectedElement} />
-        <div className="h-full text-xl flex text-center items-center bubble-notip  mt-4">
+        {/* <div className="h-full text-xl flex text-center items-center bubble-notip  mt-4">
           <p className="bg-white text-black"> Click on an agent on the map to see chat history.</p>
-        </div>
+        </div> */}
       </>
     );
   }

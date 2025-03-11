@@ -111,12 +111,11 @@ export default function AgentList({ setSelectedElement }: AgentListProps) {
       <div className="lg:mt-4 chats text-black">
         <div className="bg-[#ffe478] p-2">
           <div className="flex justify-between items-center">
-            <h2 className="font-display shadow-solid text-2xl">Week 5</h2>
+            <h2 className="font-display shadow-solid text-2xl">SEASON 1 IS OVER</h2>
             <WeekCountdown />
           </div>
-
           <div className="mt-2 bg-black w-full h-[1px]" />
-          <div className="bubble-notip">
+          {/*  <div className="bubble-notip">
             <ol className="flex flex-col gap-4 bg-white">
               {sortedAgents.map((agent) => (
                 <li key={agent.name} className="flex justify-between items-center ">
@@ -150,7 +149,10 @@ export default function AgentList({ setSelectedElement }: AgentListProps) {
                 </li>
               ))}
             </ol>
-          </div>
+          </div> */}
+          <p className="mt-2 font-bold text-lg">Game is now paused.</p>
+          We are currently working on Season 2 and a better way to monetize in order to pay running
+          costs.
         </div>
       </div>
 
