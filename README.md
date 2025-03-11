@@ -97,6 +97,13 @@ A secondary goal is to make a JS/TS framework available as most simulators in th
 - Remove Dave as he has no votes
 - votes not reset as they still under 100 each agent.
 
+#### Tuesday 11th March
+
+- Season 1 completed
+- Pause game server
+- Work out better way to pay for servers etc. [WIP]
+- Work on season 2 ideas [WIP]
+
 ## Overview
 
 - 💻 [Stack](#stack)
